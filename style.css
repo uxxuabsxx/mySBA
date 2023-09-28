@@ -23,7 +23,7 @@ html {
 
 .header .logo  {
     flex-grow: 1;
-    color: rgb(95, 157, 214);
+    color: rgb(255, 210, 74);
     font-family: "Shrikhand";
     font-size: 1.2rem;
 
@@ -33,7 +33,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(255, 226, 146);
+  background-color: rgb(255, 210, 74);
   padding: 0 10%;
 }
 
@@ -56,10 +56,10 @@ html {
 
 /* Banner */
 .banner {
-    background: url("./img/lenn1.jpg");
-    height: 350px;
-    background: size 200px;
-    background-position: left;
+    background: url("./lenn1.jpg");
+    height: 400px;
+    background-size:cover;
+    background-position:center ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@ html {
 .MV {
   text-align: center;
   margin-top: 100px;
-  color: rgb(224, 177, 203);
+  color: rgb(255, 210, 74);
   font-family: "Shrikhand";
   letter-spacing: 0.1rem;
 }
@@ -113,7 +113,7 @@ html {
     flex-direction: row;
     align-items: flex-start;
     justify-content: left;
-    background-color: rgb(255, 209, 149);
+    background-color: rgb(255, 251, 210);
     height: 450px;
   }
   
@@ -125,12 +125,12 @@ html {
   }
   
   .video-info h2 {
-    color: rgb(159, 134, 192);
+    color: rgb(234, 182, 92);
     width: 300px;
   }
   
   .video-info p {
-    color: white;
+    color: rgb(234, 182, 92);
     width: 300px;
   }
   
@@ -223,7 +223,7 @@ html {
 .about {
   text-align: center;
   margin-top: 100px;
-  color: lightsalmon;
+  color:#cfc972;
   font-family: cursive;
   letter-spacing: 0.15rem;
 }
